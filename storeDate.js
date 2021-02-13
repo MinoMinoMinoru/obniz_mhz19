@@ -56,24 +56,9 @@ async function sleep(time) {
     });
 }
 
-function sendDate(temp, humid, co2) {
-    var options = {
-        uri: "https://script.google.com/macros/s/AKfycbxzvMb943FEZuRG4WtZQTP8IPe0myOZz4zmzJTGeFrv9N2bpfrrCQnS/exec",
-        headers: {
-            "Content-type": "application/json",
-        },
-        json: {
-            "temp": temp,
-            "humid": humid,
-            "co2": co2
-        }
-    };
-    request.post(options, function(error, response, body) {});
-}
-
 function sendDate(body) {
     var options = {
-        uri: "https://script.google.com/macros/s/AKfycbxzvMb943FEZuRG4WtZQTP8IPe0myOZz4zmzJTGeFrv9N2bpfrrCQnS/exec",
+        uri: "xxxxxxxx",
         headers: {
             "Content-type": "application/json",
         },
