@@ -28,6 +28,12 @@ obniz = new Obniz("xxxx-xxxx");
 |  11 |  GND(V-)  |
 
 
+|  obniz PIN |  Grove Lighting Sensor  |
+| ---- | ---- |
+|  2  |  Sig  |
+|  4  |  Vcc  |
+|  5  |  Gnd  |
+
 ## run server
 
 run the following command.
