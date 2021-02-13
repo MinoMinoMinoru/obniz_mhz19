@@ -2,6 +2,7 @@
 This is simple sample
 - obniz
 - mh_z19
+- GrooveLightingSensor
 
 # how to use
 ## install modules
@@ -10,10 +11,13 @@ This is simple sample
 npm install
 ```
 
-## input obniz ID in mh_z19.js
+## input obniz ID in .env
  
+
 ```
-obniz = new Obniz("xxxx-xxxx");
+GAS_ENDPOINT=
+OBNIZ_ID=
+
 ```
 
 
