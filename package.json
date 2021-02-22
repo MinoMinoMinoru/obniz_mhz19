@@ -14,6 +14,8 @@
         "restify": "^8.5.1"
     },
     "devDependencies": {
+        "azure-iot-device": "^1.17.3",
+        "azure-iot-device-mqtt": "^1.15.3",
         "dotenv": "^8.2.0",
         "request": "^2.88.2",
         "requests": "^0.3.0"

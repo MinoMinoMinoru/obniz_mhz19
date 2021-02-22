@@ -6,7 +6,6 @@ class TempClient {
 
     constructor() {}
 
-
     async getTemp() {
         const result = await this.sendGetRequest()
         return result
@@ -24,11 +23,9 @@ class TempClient {
                     // console.log(body);
                     resolve(body)
                 }
-
             });
         });
     }
-
 }
 
 module.exports.TempClient = TempClient;

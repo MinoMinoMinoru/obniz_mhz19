@@ -20,6 +20,10 @@ class Mh_z19 {
         await uart.start({ rx: 0, tx: 1, baud: 9600 });
     }
 
+    async starUart(){
+        await uart.start({ rx: 0, tx: 1, baud: 9600 });
+    }
+
     read_co2_concentration() {
         //MH-Z19Bの読み出しコマンド
         uart.send([0xFF, 0x01, 0x86, 0x00, 0x00, 0x00, 0x00, 0x00, 0x79]);
